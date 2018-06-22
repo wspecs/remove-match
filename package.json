@@ -1,0 +1,39 @@
+{
+  "name": "remove-match",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "wspecs/remove-match",
+  "bin": {
+    "remove-match": "bin/index.js"
+  },
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "test": "mocha ./dist/test/*.js"
+  },
+  "keywords": [
+    "remove-match"
+  ],
+  "author": {
+    "name": "Wendly Saintil",
+    "email": "wendlysaintil@gmail.com",
+    "url": "tsm.author.url"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^4.1.3",
+    "@types/mocha": "^5.2.0",
+    "@types/node": "^10.0.2",
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1"
+  },
+  "dependencies": {
+    "args-finder": "0.0.3",
+    "commander": "^2.15.1",
+    "great-logs": "0.0.4",
+    "minimist": "^1.2.0",
+    "replace": "^1.0.0",
+    "shelljs": "^0.8.2"
+  }
+}

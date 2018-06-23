@@ -1,6 +1,6 @@
 {
   "name": "remove-match",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Find all the lines that match a given entry",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
